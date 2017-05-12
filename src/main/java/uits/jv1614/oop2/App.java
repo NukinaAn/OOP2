@@ -35,11 +35,8 @@ public class App {
                 }
             }
      }
+ }
 
-    private static void ArrayList(Customer[] cust) {
-       
-    }
-}
 
     
 
