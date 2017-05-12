@@ -26,7 +26,7 @@ public class App {
           cardInInterval(interval, cust);  
     }
      public static void cardInInterval(long[] interval, Customer[] cust){
-         System.out.println("Cписок покупателей, у которых номер кредитной карточки находится в заданном интервале:");
+         System.out.println("Cписок покупателей, у которых номер кредитной карты находится в заданном интервале:");
             ArrayList(cust);
             for(Customer elem : cust) {
                 if (elem.getNumberCreditCard() >= interval[0] && elem.getNumberCreditCard() <= interval[1]) {
