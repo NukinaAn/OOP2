@@ -11,8 +11,6 @@ public class Customer  implements Comparable<Customer>{
    private long NumberCreditCard;
    private int NumberBankAccount;
    
-    
- 
     public Customer(int id, String Name, String SurName, String MiddleName, String address, long NumberCreditCard, int NumberBankAccount) {
         this.id = id;
         this.Name = Name;
